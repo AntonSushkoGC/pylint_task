@@ -1,0 +1,117 @@
+(base) antonsushko@anton-sushko-2 pylint_task % pylint quick_sort.py
+************* Module quick_sort
+quick_sort.py:23:0: C0304: Final newline missing (missing-final-newline)
+quick_sort.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+quick_sort.py:2:0: C0103: Function name "quickSort" doesn't conform to snake_case naming style (invalid-name)
+quick_sort.py:2:0: C0116: Missing function or method docstring (missing-function-docstring)
+quick_sort.py:4:4: C0103: Variable name "pivotList" doesn't conform to snake_case naming style (invalid-name)
+quick_sort.py:6:4: R1705: Unnecessary "else" after "return" (no-else-return)
+
+-----------------------------------
+Your code has been rated at 6.67/10
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint quick_sort.py
+************* Module quick_sort
+quick_sort.py:26:0: C0304: Final newline missing (missing-final-newline)
+quick_sort.py:4:0: W0105: String statement has no effect (pointless-string-statement)
+quick_sort.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+quick_sort.py:9:4: R1705: Unnecessary "else" after "return" (no-else-return)
+quick_sort.py:26:4: E0602: Undefined variable 'quickSort' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 5.26/10 (previous run: 6.67/10, -1.40)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint quick_sort.py
+************* Module quick_sort
+quick_sort.py:24:0: C0304: Final newline missing (missing-final-newline)
+quick_sort.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+quick_sort.py:7:4: R1705: Unnecessary "else" after "return" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 8.33/10 (previous run: 5.26/10, +3.07)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint quick_sort.py
+************* Module quick_sort
+quick_sort.py:8:4: R1705: Unnecessary "else" after "return" (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 9.44/10 (previous run: 8.33/10, +1.11)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint quick_sort.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.44/10, +0.56)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint triangle_overlap.py
+************* Module triangle_overlap
+triangle_overlap.py:91:0: C0304: Final newline missing (missing-final-newline)
+triangle_overlap.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+triangle_overlap.py:6:0: C0103: Function name "CheckTriWinding" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:6:0: C0103: Argument name "allowReversed" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+triangle_overlap.py:9:4: C0103: Variable name "detTri" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:12:12: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:20:13: W0621: Redefining name 't1' from outer scope (line 59) (redefined-outer-name)
+triangle_overlap.py:20:17: W0621: Redefining name 't2' from outer scope (line 60) (redefined-outer-name)
+triangle_overlap.py:20:0: C0103: Function name "TriTri2D" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:20:0: C0103: Argument name "t1" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:20:0: C0103: Argument name "t2" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:20:0: C0103: Argument name "allowReversed" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:20:0: C0103: Argument name "onBoundary" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+triangle_overlap.py:27:8: C0103: Variable name "chkEdge" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:30:8: C0103: Variable name "chkEdge" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 6.79/10
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint triangle_overlap.py
+************* Module triangle_overlap
+triangle_overlap.py:8:0: C0103: Argument name "allowReversed" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:12:4: C0103: Variable name "detTri" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:15:12: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:23:23: W0621: Redefining name 't1' from outer scope (line 63) (redefined-outer-name)
+triangle_overlap.py:23:27: W0621: Redefining name 't2' from outer scope (line 64) (redefined-outer-name)
+triangle_overlap.py:23:0: C0103: Function name "triange_triange_2D" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:23:0: C0103: Argument name "t1" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:23:0: C0103: Argument name "t2" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.49/10 (previous run: 6.79/10, +1.70)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint triangle_overlap.py
+************* Module triangle_overlap
+triangle_overlap.py:8:0: C0103: Argument name "allowReversed" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:23:0: C0103: Function name "triange_triange_2D" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 8.49/10, +1.13)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint triangle_overlap.py
+************* Module triangle_overlap
+triangle_overlap.py:23:0: C0103: Function name "triange_to_triange_2D" doesn't conform to snake_case naming style (invalid-name)
+triangle_overlap.py:65:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:69:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:73:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:77:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:81:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:85:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:90:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+triangle_overlap.py:95:10: E0602: Undefined variable 'triange_triange_2D' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 2.26/10 (previous run: 9.62/10, -7.36)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint triangle_overlap.py
+************* Module triangle_overlap
+triangle_overlap.py:23:0: C0103: Function name "compare_triange_to_triange_2D" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.81/10 (previous run: 2.26/10, +7.55)
+
+(base) antonsushko@anton-sushko-2 pylint_task % pylint triangle_overlap.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.81/10, +0.19)
+
+(base) antonsushko@anton-sushko-2 pylint_task %
